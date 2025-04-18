@@ -1,3 +1,4 @@
+#흐름과 제어 - if 4
 Man1 = input()
 Man2 = input()
 if Man1 == Man2:
