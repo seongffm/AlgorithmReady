@@ -7,4 +7,4 @@ for tc in range(1,T+1):
     elif ord("a")<= ord(Alphabet) <=ord("z"):
         print(f"#{tc} {Alphabet} 는 소문자 입니다.")
     else:
-        print(f"#{tc} {Alphabet} 는 알파벳이 아닙닙니다.")
+        print(f"#{tc} {Alphabet} 는 알파벳이 아닙니다.") 

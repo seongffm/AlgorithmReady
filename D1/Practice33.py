@@ -23,9 +23,9 @@ print(','.join(result))
 # result = []
 # for i in range(100,301):
 #     digits = [i//100,(i//10)%10,i%10]
-#     # 리스트 컴프리헨션 말고 바로 제너레이터로 만들어 메모리절약약
+#     # 리스트 컴프리헨션 말고 바로 제너레이터로 만들어 메모리절약
 #     even_count = sum(1 for d in digits if d%2 == 0)
 #     if even_count==3:
 #         result.append(str(i))
-# print(*result) #[]만 벗겨서 출력(공백으로 구분분)
-# print(','.join(result)) #(문자열 리스트만 가능능)
+# print(*result) #[]만 벗겨서 출력(공백으로 구분)
+# print(','.join(result)) #(문자열 리스트만 가능)
